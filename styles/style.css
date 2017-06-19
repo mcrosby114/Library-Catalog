@@ -38,11 +38,11 @@ body {
 }
 
 .success-pg-background{
-	background-image: url(../images/light-blue-0.svg);
-	/*background-image: url(../images/light-blue-4.jpg);*/
-	/*background-image: url(../images/light-orange.png);*/
-	/*background-image: url(../images/orange-abstract.jpg);*/
-	/*background-image: url(../images/light-blue-2.jpg);*/
+  background-image: url('../images/light-blue-0.svg');
+	/*background-image: url('../images/light-blue-4.jpg');*/
+	/*background-image: url('../images/light-orange.png');*/
+	/*background-image: url('../images/orange-abstract.jpg');*/
+	/*background-image: url('../images/light-blue-2.jpg');*/
 	/*background-color:whitesmoke;*/
 	/*background-color:#d5d5d5;*/
 	background-size:cover;

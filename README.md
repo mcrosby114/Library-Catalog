@@ -1,13 +1,9 @@
 # Library Database Design website
 
-## Description:
 A web interface for tracking books and borrowers in a library system. Featuring a custom database model, DDL, PHP application middleware, HTML/CSS user interface.
 
 ##### https://mcrosby114.github.io/Library-Catalog/
 ##### https://github.com/mcrosby114/Library-Catalog/
-
-## Description
-A web interface for tracking books and borrowers in a library system. Featuring custom database model and DDL, PHP scripting, HTML/CSS user interface.
 
 ## Highlights:
 * Designed database DDL from logical data model

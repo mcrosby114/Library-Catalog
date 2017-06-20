@@ -6,10 +6,10 @@ A web interface for tracking books and borrowers in a library system. Featuring 
 ##### https://mcrosby114.github.io/Library-Catalog/
 ##### https://github.com/mcrosby114/Library-Catalog/
 
-##Description
+## Description
 A web interface for tracking books and borrowers in a library system. Featuring custom database model and DDL, PHP scripting, HTML/CSS user interface.
 
-##Highlights:
+## Highlights:
 * Designed database DDL from logical data model
 * Triggers for insert/update on Book, Book Copy, Publisher, Library Branch, Borrower, Book Loan
 * Constraints on foreign and primary keys

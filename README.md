@@ -19,3 +19,9 @@ A web interface for tracking books and borrowers in a library system. Featuring 
 * Check out a book to an existing borrower
 * Return a checked out book
 * Display borrowers and account details
+
+## Key Files:
+* **Crosby_ModelDiagram_LibrarySystem_Toad.pdf** - PDF file showing the data model diagram of the final database design
+* **Library.sql** - The DDL to construct the Library database and associated tables/triggers
+* **Populate.sql** - The load script to populate these tables: "Borrowers", "Library_Branches", "Publishers"
+* **(numerous PHP & CSS files)** - These are the code files used to generate a web app UI

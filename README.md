@@ -1,4 +1,4 @@
-# Library Database Design website
+# Library Catalog Database Application
 
 A web interface for tracking books and borrowers in a library system. Featuring a custom database model, DDL, PHP application middleware, HTML/CSS user interface.
 

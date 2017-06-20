@@ -1,19 +1,25 @@
 # Library Database Design website
 
 ## Description:
-A 
+A web interface for tracking books and borrowers in a library system. Featuring a custom database model, DDL, PHP application middleware, HTML/CSS user interface.
 
-## Features:
-* Written purely with PHP, HTML, CSS, Javascript, MySQL (no frameworks)
-* Designed database schema with full CRUD support for accounts, projects, tasks
-* Designed with UX in mind (e.g., input validation, persistent and context-aware navigation)
-* Security across the board:
-  * Form inputs sanitized and validated on client and server (prepared statements, regular expressions)
-  * Passwords salted and hashed
-  * URL access restriction
-* Supports session management, persisting state across pages (e.g., permissions, errors, login state)
-* Supports account signup, login, logout
-* Uses PHP data access object (a design pattern) for database operations
-* Customizable grid layout, task boxes, colors, checkboxes
-* Product branding, content pages
-* JQuery enhancements: image gallery, tooltips, fading effects, AJAX data loading
+##### (https://mcrosby114.github.io/Library-Catalog/)
+##### (https://github.com/mcrosby114/Library-Catalog/)
+
+##Description
+A web interface for tracking books and borrowers in a library system. Featuring custom database model and DDL, PHP scripting, HTML/CSS user interface.
+
+##Highlights:
+* Designed database DDL from logical data model
+* Triggers for insert/update on Book, Book Copy, Publisher, Library Branch, Borrower, Book Loan
+* Constraints on foreign and primary keys
+* Indices on foreign and primary keys
+* Tables auto populate with auditing attributes (UID, date/time when row inserted, last updated)
+* Error handling (application and database)
+
+## Functionality:
+* Add new book, and put each copy in a library branch
+* Find a book, and display its details
+* Check out a book to an existing borrower
+* Return a checked out book
+* Display borrowers and account details

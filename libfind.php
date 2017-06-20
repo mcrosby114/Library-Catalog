@@ -4,7 +4,7 @@
   $dao = new Dao();
 ?>
 
-<?php $thisPage = 'Find Book'; ?>
+<?php $thisPage = 'Find'; ?>
 
 <?php require_once("php_includes/header.php"); ?>
 
@@ -20,7 +20,7 @@
 
           <h1 class="formTitle">Find a Book</h1>
           <p class="formTitle">(Leave field blank to retrieve all book records)</p>
-          
+
           <?php
             if(isset($_SESSION['findFault'])) {
               echo "<div id='error_msg'>" . $_SESSION['findFault'] . "<span class='close-box'>&#10006</span>" . "</div>";
@@ -58,11 +58,11 @@
                 <th>Copies: </th>
               </tr>
 
-              <?php 
+              <?php
                 $branchList = $dao->findBranches($bk['BookId']);
                 $pubName = $dao->getPubName($bk['PubId']);
 
-                foreach($branchList as $br){ 
+                foreach($branchList as $br){
                   $tempRow = $dao->getBranchCopies($bk['BookId'], $br['BranchId']);
                   $quantity = $tempRow['NoOfCopies'];
                ?>
